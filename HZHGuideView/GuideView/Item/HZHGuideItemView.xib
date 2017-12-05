@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HZHGuideItemView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OwN-Dj-RVU">
+                    <rect key="frame" x="0.0" y="80" width="375" height="375"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OwN-Dj-RVU" secondAttribute="height" id="QNw-8H-kdL"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQC-YE-afz">
+                    <rect key="frame" x="79.5" y="485" width="216" height="76"/>
+                    <state key="normal" image="guide_btn_icon"/>
+                    <connections>
+                        <action selector="dismissAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="i2s-aF-zlz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OwN-Dj-RVU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="4Al-ut-Gzs"/>
+                <constraint firstAttribute="trailing" secondItem="OwN-Dj-RVU" secondAttribute="trailing" id="6ai-3K-c78"/>
+                <constraint firstItem="AQC-YE-afz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BLL-m8-Dx8"/>
+                <constraint firstItem="OwN-Dj-RVU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tjk-Wy-NnQ"/>
+                <constraint firstItem="AQC-YE-afz" firstAttribute="top" secondItem="OwN-Dj-RVU" secondAttribute="bottom" constant="30" id="j8J-hy-QAF"/>
+            </constraints>
+            <connections>
+                <outlet property="gifImageView" destination="OwN-Dj-RVU" id="iCi-hW-51o"/>
+                <outlet property="jumpBtn" destination="AQC-YE-afz" id="X3a-oT-rFO"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="guide_btn_icon" width="216" height="76"/>
+    </resources>
+</document>

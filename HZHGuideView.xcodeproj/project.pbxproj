@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6729353995D337F15286AFE2 /* libPods-HZHGuideView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9417D63AFD583B54231110B1 /* libPods-HZHGuideView.a */; };
 		F9D912CE1FD640550061084B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912CD1FD640550061084B /* AppDelegate.m */; };
 		F9D912D11FD640550061084B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912D01FD640550061084B /* ViewController.m */; };
 		F9D912D41FD640550061084B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D912D21FD640550061084B /* Main.storyboard */; };
 		F9D912D61FD640550061084B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D912D51FD640550061084B /* Assets.xcassets */; };
 		F9D912D91FD640550061084B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D912D71FD640550061084B /* LaunchScreen.storyboard */; };
 		F9D912DC1FD640550061084B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912DB1FD640550061084B /* main.m */; };
+		F9D912E41FD649390061084B /* guide_gif_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9D912E21FD649380061084B /* guide_gif_3.gif */; };
+		F9D912E51FD649390061084B /* guide_gif_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9D912E31FD649390061084B /* guide_gif_2.gif */; };
+		F9D912EB1FD64BB90061084B /* HZHGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912EA1FD64BB90061084B /* HZHGuideView.m */; };
+		F9D912EF1FD64BE30061084B /* HZHGuideItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912EE1FD64BE30061084B /* HZHGuideItemView.m */; };
+		F9D912F31FD64C1D0061084B /* HZHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D912F21FD64C1D0061084B /* HZHPageControl.m */; };
+		F9D912F51FD64CC40061084B /* HZHGuideItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D912F41FD64CC40061084B /* HZHGuideItemView.xib */; };
+		F9D912F81FD669590061084B /* guide_gif_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9D912F61FD669590061084B /* guide_gif_1.gif */; };
+		F9D912F91FD669590061084B /* guide_gif_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9D912F71FD669590061084B /* guide_gif_0.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43033FDA1416529166715516 /* Pods-HZHGuideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZHGuideView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZHGuideView/Pods-HZHGuideView.debug.xcconfig"; sourceTree = "<group>"; };
+		9417D63AFD583B54231110B1 /* libPods-HZHGuideView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZHGuideView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32D50FA2672C48A6BC73345 /* Pods-HZHGuideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZHGuideView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZHGuideView/Pods-HZHGuideView.release.xcconfig"; sourceTree = "<group>"; };
 		F9D912C91FD640550061084B /* HZHGuideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZHGuideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D912CC1FD640550061084B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9D912CD1FD640550061084B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,17 @@
 		F9D912D81FD640550061084B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9D912DA1FD640550061084B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D912DB1FD640550061084B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9D912E21FD649380061084B /* guide_gif_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guide_gif_3.gif; sourceTree = "<group>"; };
+		F9D912E31FD649390061084B /* guide_gif_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guide_gif_2.gif; sourceTree = "<group>"; };
+		F9D912E91FD64BB90061084B /* HZHGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZHGuideView.h; sourceTree = "<group>"; };
+		F9D912EA1FD64BB90061084B /* HZHGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZHGuideView.m; sourceTree = "<group>"; };
+		F9D912ED1FD64BE30061084B /* HZHGuideItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZHGuideItemView.h; sourceTree = "<group>"; };
+		F9D912EE1FD64BE30061084B /* HZHGuideItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZHGuideItemView.m; sourceTree = "<group>"; };
+		F9D912F11FD64C1D0061084B /* HZHPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZHPageControl.h; sourceTree = "<group>"; };
+		F9D912F21FD64C1D0061084B /* HZHPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZHPageControl.m; sourceTree = "<group>"; };
+		F9D912F41FD64CC40061084B /* HZHGuideItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZHGuideItemView.xib; sourceTree = "<group>"; };
+		F9D912F61FD669590061084B /* guide_gif_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guide_gif_1.gif; sourceTree = "<group>"; };
+		F9D912F71FD669590061084B /* guide_gif_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guide_gif_0.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6729353995D337F15286AFE2 /* libPods-HZHGuideView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B89B89FCF38C39886B73E5F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9417D63AFD583B54231110B1 /* libPods-HZHGuideView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66F82146BC872D3A4A72B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43033FDA1416529166715516 /* Pods-HZHGuideView.debug.xcconfig */,
+				F32D50FA2672C48A6BC73345 /* Pods-HZHGuideView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9D912C01FD640550061084B = {
 			isa = PBXGroup;
 			children = (
 				F9D912CB1FD640550061084B /* HZHGuideView */,
 				F9D912CA1FD640550061084B /* Products */,
+				D66F82146BC872D3A4A72B2E /* Pods */,
+				B89B89FCF38C39886B73E5F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +101,7 @@
 		F9D912CB1FD640550061084B /* HZHGuideView */ = {
 			isa = PBXGroup;
 			children = (
+				F9D912E61FD64AE90061084B /* GuideView */,
 				F9D912CC1FD640550061084B /* AppDelegate.h */,
 				F9D912CD1FD640550061084B /* AppDelegate.m */,
 				F9D912CF1FD640550061084B /* ViewController.h */,
@@ -67,8 +111,50 @@
 				F9D912D71FD640550061084B /* LaunchScreen.storyboard */,
 				F9D912DA1FD640550061084B /* Info.plist */,
 				F9D912DB1FD640550061084B /* main.m */,
+				F9D912E31FD649390061084B /* guide_gif_2.gif */,
+				F9D912E21FD649380061084B /* guide_gif_3.gif */,
+				F9D912F71FD669590061084B /* guide_gif_0.gif */,
+				F9D912F61FD669590061084B /* guide_gif_1.gif */,
 			);
 			path = HZHGuideView;
+			sourceTree = "<group>";
+		};
+		F9D912E61FD64AE90061084B /* GuideView */ = {
+			isa = PBXGroup;
+			children = (
+				F9D912F01FD64BED0061084B /* PageControl */,
+				F9D912EC1FD64BCB0061084B /* Item */,
+				F9D912E71FD64AF80061084B /* Guide */,
+			);
+			path = GuideView;
+			sourceTree = "<group>";
+		};
+		F9D912E71FD64AF80061084B /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				F9D912E91FD64BB90061084B /* HZHGuideView.h */,
+				F9D912EA1FD64BB90061084B /* HZHGuideView.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		F9D912EC1FD64BCB0061084B /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				F9D912ED1FD64BE30061084B /* HZHGuideItemView.h */,
+				F9D912EE1FD64BE30061084B /* HZHGuideItemView.m */,
+				F9D912F41FD64CC40061084B /* HZHGuideItemView.xib */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		F9D912F01FD64BED0061084B /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F9D912F11FD64C1D0061084B /* HZHPageControl.h */,
+				F9D912F21FD64C1D0061084B /* HZHPageControl.m */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D912DF1FD640550061084B /* Build configuration list for PBXNativeTarget "HZHGuideView" */;
 			buildPhases = (
+				EF8E7676659A6ECA29162864 /* [CP] Check Pods Manifest.lock */,
 				F9D912C51FD640550061084B /* Sources */,
 				F9D912C61FD640550061084B /* Frameworks */,
 				F9D912C71FD640550061084B /* Resources */,
+				8EDBDEB2356CF60E93668E58 /* [CP] Embed Pods Frameworks */,
+				F59DE1CC49D30DEED4EF894E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,19 +218,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D912E41FD649390061084B /* guide_gif_3.gif in Resources */,
 				F9D912D91FD640550061084B /* LaunchScreen.storyboard in Resources */,
+				F9D912E51FD649390061084B /* guide_gif_2.gif in Resources */,
 				F9D912D61FD640550061084B /* Assets.xcassets in Resources */,
 				F9D912D41FD640550061084B /* Main.storyboard in Resources */,
+				F9D912F91FD669590061084B /* guide_gif_0.gif in Resources */,
+				F9D912F81FD669590061084B /* guide_gif_1.gif in Resources */,
+				F9D912F51FD64CC40061084B /* HZHGuideItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EDBDEB2356CF60E93668E58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZHGuideView/Pods-HZHGuideView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8E7676659A6ECA29162864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZHGuideView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59DE1CC49D30DEED4EF894E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZHGuideView/Pods-HZHGuideView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9D912C51FD640550061084B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D912EF1FD64BE30061084B /* HZHGuideItemView.m in Sources */,
+				F9D912F31FD64C1D0061084B /* HZHPageControl.m in Sources */,
+				F9D912EB1FD64BB90061084B /* HZHGuideView.m in Sources */,
 				F9D912D11FD640550061084B /* ViewController.m in Sources */,
 				F9D912DC1FD640550061084B /* main.m in Sources */,
 				F9D912CE1FD640550061084B /* AppDelegate.m in Sources */,
@@ -276,6 +424,7 @@
 		};
 		F9D912E01FD640550061084B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43033FDA1416529166715516 /* Pods-HZHGuideView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +438,7 @@
 		};
 		F9D912E11FD640550061084B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32D50FA2672C48A6BC73345 /* Pods-HZHGuideView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,20 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - YLGIFImage (0.11)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+  - YLGIFImage
+  - YYImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 61780d8b602a046b18a3ece6b618ed9e0be1c3d8
+
+COCOAPODS: 1.3.1
